@@ -58,15 +58,15 @@ The JJ component represents the county or sector where the person was born, or w
 
 County codes are in their alphabetical order, with some exceptions.
 County Code
-01 White
+01 Alba
 02 Arad
 03 Arges
 04 Bacau
 05 Bihor
-06 Bistrita-Năsăud
-07 Botosani
-08 Brasov
-09 Braila
+06 Bistrița-Năsăud
+07 Botoșani
+08 Brașov
+09 Brăila
 10 Buzau
 11 Caraș-Severin
 12 Cluj
@@ -74,39 +74,39 @@ County Code
 14 Covasna
 15 Dâmbovița
 16 Dolj
-17 Galatians
+17 Galați
 18 Gorj
 19 Harghita
 20 Hunedoara
-21 Ialomita
-22 Iasi
+21 Ialomița
+22 Iași
 23 Ilfov
 24 Maramureș
-25 Mehedints
+25 Mehedinți
 26 Mures
-27 German
+27 Neamț
 28 Olt
 29 Prahova
 30 Satu Mare
-31 Salaj
+31 Sălaj
 32 Sibiu
 33 Suceava
 34 Teleorman
-35 Timis
+35 Timiș
 36 Tulcea
 37 Vaslui
-38 Valcea
+38 Vâlcea
 39 Vrancea
 40 Bucharest
 41 Bucharest - District 1
-42 Bucharest - Sector 2
+42 Bucharest - District 2
 43 Bucharest - District 3
 44 Bucharest - District 4
-45 Bucharest - Sector 5
+45 Bucharest - District 5
 46 Bucharest - District 6
 51 Calarași
 52 Giurgiu
-47 Bucharest - Sector 7 (abolished)
+47 Bucharest - District 7 (abolished)
 48 Bucharest - District 8 (abolished)
 
 NNN
