@@ -1,0 +1,30 @@
+{
+  "name": "js-cnp-validation",
+  "version": "1.0.0",
+  "description": "A CNP (Cod Numeric Personal) is a personal identification number used in Romania. It's a unique code assigned to each Romanian citizen and is similar to a national identification number or social security number in other countries. CNP consists of 13 digits, and it contains information about the person's birthdate, gender, and location.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "author": "Aciobanitei Constantin",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aciobanitei/js-romanian-cnp-validation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aciobanitei/js-romanian-cnp-validation/issues"
+  },
+  "homepage": "https://github.com/aciobanitei/js-romanian-cnp-validation#readme",
+  "keywords": [
+    "cnpvalidation",
+    "validatecnp"
+  ]
+}
