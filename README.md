@@ -1,4 +1,4 @@
-# `js-valid-cnp`
+# `js-romanian-cnp-validation`
 
 Function for validate C.N.P. - Personal number code (Romania)
 
