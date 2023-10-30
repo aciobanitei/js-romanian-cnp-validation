@@ -1,6 +1,6 @@
-# `js-romanian-cnp-validation`
+# `js-valid-cnp`
 
-Function for validate C.N.P. - Personal number code (Romania)
+Function for replace all ocurence of a string for NodeJS versions older than 15
 
 ## Usage
 
@@ -58,15 +58,15 @@ The JJ component represents the county or sector where the person was born, or w
 
 County codes are in their alphabetical order, with some exceptions.
 County Code
-01 Alba
+01 White
 02 Arad
 03 Arges
 04 Bacau
 05 Bihor
-06 Bistrița-Năsăud
-07 Botoșani
-08 Brașov
-09 Brăila
+06 Bistrita-Năsăud
+07 Botosani
+08 Brasov
+09 Braila
 10 Buzau
 11 Caraș-Severin
 12 Cluj
@@ -74,39 +74,39 @@ County Code
 14 Covasna
 15 Dâmbovița
 16 Dolj
-17 Galați
+17 Galatians
 18 Gorj
 19 Harghita
 20 Hunedoara
-21 Ialomița
-22 Iași
+21 Ialomita
+22 Iasi
 23 Ilfov
 24 Maramureș
-25 Mehedinți
+25 Mehedints
 26 Mures
-27 Neamț
+27 German
 28 Olt
 29 Prahova
 30 Satu Mare
-31 Sălaj
+31 Salaj
 32 Sibiu
 33 Suceava
 34 Teleorman
-35 Timiș
+35 Timis
 36 Tulcea
 37 Vaslui
-38 Vâlcea
+38 Valcea
 39 Vrancea
 40 Bucharest
 41 Bucharest - District 1
-42 Bucharest - District 2
+42 Bucharest - Sector 2
 43 Bucharest - District 3
 44 Bucharest - District 4
-45 Bucharest - District 5
+45 Bucharest - Sector 5
 46 Bucharest - District 6
 51 Calarași
 52 Giurgiu
-47 Bucharest - District 7 (abolished)
+47 Bucharest - Sector 7 (abolished)
 48 Bucharest - District 8 (abolished)
 
 NNN
@@ -127,7 +127,7 @@ The calculation of the C component is done using the constant "279146358279", as
     if the remainder of the division is less than 10, that represents the value of the C component
     if the remainder of the division is 10, the value of the C component is 1
 
-the source of the explanations https://ro.wikipedia.org/wiki/Cod_numeric_personal_(Romănia)
+the source of the explanations https://ro.wikipedia.org/wiki/Cod_numeric_personal_(România)
 
 ```javascript
 const validcnp= require("js-valid-cnp");
